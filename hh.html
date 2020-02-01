@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			background-image: url(imges/bg.png);
+		}
+		#one{
+			border: 0px solid #000;
+			position: center;
+			padding-left: 40%;
+			color: #000;
+			padding-top: 60px;
+		}
+		#two{
+			border: 0px solid #000;
+			position: center;
+			padding-left: 30%;
+			color: #000;
+			font-size: 48px;
+		}
+		img{
+			border: 0px solid red;
+			position: center;
+			padding-left: 40%;
+			color: red;
+		}
+		#button{			
+			margin-left: 38%;
+		}
+		button{
+			padding: 10px;
+			width: 67px;
+			border: 1px solid;
+			background-color: red;
+			margin-left: 40px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p id="one">小仙女我观察你很久了</p>
+	<p id="two">小仙女做我女朋友好不好？</p>
+	<img src="imges/img9.png"></br>
+	<dir id="button">
+		<button id="hao">好</button>
+		<button id="buhao">不好</button>
+	</dir>	
+</div>
+<p></p>
+</body>
+<script type="text/javascript">
+  var hao=document.getElementById("hao");
+  var buhao = document.getElementById('buhao');
+  hao.onclick=function(){
+  	alert("你同意了！");
+  	alert("真的嘛，嘿嘿，那你回复我：爱你");
+  }
+
+  buhao.onclick=function(){
+  	alert("小仙女再考虑一下呗");
+  	alert("我这么帅你再考虑考虑");
+  	alert("一生一世爱你");
+  	alert("会做饭");
+  	alert("不藏私房钱"); 
+  	alert("家务我全干");
+  	alert("工资上交");
+  	alert("房子写你名");
+  	alert("再考虑考虑");
+  }
+</script>
+</html>
